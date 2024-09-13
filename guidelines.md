@@ -87,4 +87,6 @@ Ensure that every change is tested across multiple platforms and environments.
 
 Periodically perform in-depth security audits of the codebase. Use external auditors when necessary to ensure unbiased reviews.
 Follow a proactive approach to identifying and fixing potential security issues.
+
+
 By following these guidelines, Plakar will maintain a clean, secure, and technically superior codebase, promoting transparency, collaboration, and excellence across all development efforts.
