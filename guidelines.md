@@ -59,9 +59,9 @@ Treat code cleanup as a priority. Removing unused or unnecessary code is an esse
 Do not allow unused, redundant, or cluttering code to accumulate in the project.
 
 
-## Technical Superiority First
+## Technical Excellence First
 
-The only factor that matters in decision-making is technical superiority. The quality and merit of the code take precedence over who authored the contribution.
+The only factor that matters in decision-making is technical excellence. The quality and merit of the code take precedence over who authored the contribution.
 Encourage contributions from all, but maintain rigorous technical standards.
 
 
@@ -69,6 +69,7 @@ Encourage contributions from all, but maintain rigorous technical standards.
 
 Encourage contributions from the community and foster an environment where external contributors feel welcome.
 Make the contribution process clear and accessible, including well-defined workflows for submitting patches or issues.
+Read first the [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md).
 
 
 ## Strict Version Control Practices
@@ -89,4 +90,4 @@ Periodically perform in-depth security audits of the codebase. Use external audi
 Follow a proactive approach to identifying and fixing potential security issues.
 
 
-By following these guidelines, Plakar will maintain a clean, secure, and technically superior codebase, promoting transparency, collaboration, and excellence across all development efforts.
+By following these guidelines, Plakar will maintain a clean, secure, and technically advanced codebase, promoting transparency, collaboration, and excellence across all development efforts.
