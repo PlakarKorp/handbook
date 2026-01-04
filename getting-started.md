@@ -1,6 +1,12 @@
 ## Plakar / Kloset – New developer catch-up checklist
 
-### 0) Day-0 setup
+### 0) Day-0 before we start
+
+* [ ] We hold working sessions on Discord vocal channels: make sure you have your webcam, headphones and microphones configured (get good ones, we will provide)
+* [ ] We join the Koffee Machine room anywhere between 9am-9:30am for tchit-tchat but we hold our daily from 9:30 to 10:00, so it's good practice to be there a bit earlier.
+
+
+### 1) Day-0 setup
 
 * [ ] Install the Go toolchain + your editor tooling (linting, formatting, debugging)
 * [ ] Install plakar with go install
@@ -10,7 +16,7 @@
 
 ---
 
-### 1) Mental model of the system (the “big picture”)
+### 2) Mental model of the system (the “big picture”)
 
 * [ ] Clone the kloset repository
 * [ ] Understand what *Kloset* is (the storage engine behind Plakar) and its promises: deduplication, encryption, integrity, indexing/navigation, portable storage, extensible APIs. 
@@ -25,7 +31,7 @@
 
 ---
 
-### 2) Core concepts you should be fluent in
+### 3) Core concepts you should be fluent in
 
 #### CDC (Content-Defined Chunking)
 
@@ -55,21 +61,21 @@
 
 ---
 
-### 3) Formats and “things on disk”
+### 4) Formats and “things on disk”
 
 * [ ] Learn the repository/store layout at a practical level (what files/dirs exist, what is immutable, what is append-only, what is derived).
 * [ ] Understand PTAR as a portable archive form factor (random-access vs classic tar mental model). 
 
 ---
 
-### 4) Extensibility: connectors, SDK, and “how to add a new thing”
+### 5) Extensibility: connectors, SDK, and “how to add a new thing”
 
 * [ ] Know what kinds of integrations exist (ingestion connectors, storage backends, restore/export paths). 
 * [ ] Skim the Go SDK story (what it abstracts away; what a connector author must provide). 
 
 ---
 
-### 5) Hands-on exercises (with peer)
+### 6) Hands-on exercises (with peer)
 
 * [ ] Run a backup twice with small edits in between; observe dedup effectiveness (confirm fewer new objects).
 * [ ] Trace a single file restore end-to-end:
@@ -89,7 +95,7 @@
 
 ---
 
-### 6) Quick “definition of done” for being onboarded
+### 7) Quick “definition of done” for being onboarded
 
 * [ ] You can explain the ingestion pipeline + where dedup happens. 
 * [ ] You can explain what the VFS root is and how reads navigate from it. 
